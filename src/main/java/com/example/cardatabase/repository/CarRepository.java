@@ -8,6 +8,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.example.cardatabase.domain.Car;
 
+
 @RepositoryRestResource
 public interface CarRepository extends JpaRepository<Car, Long> {
 	// fetch cars by brand
