@@ -31,7 +31,7 @@ public class CardatabaseApplication {
 	@Bean
 	ApplicationRunner runner() {
 		return args -> {
-			/*
+			
 			// Save demo owner to database
 			Owner owner1 = new Owner("John", "Johnson");
 			Owner owner2 = new Owner("Mary", "Robinson");
@@ -48,7 +48,7 @@ public class CardatabaseApplication {
 
 			// username: admin password: admin
 			userRepository.save(new User("admin", "$2a$10$33ZfjKCI/NONpp7k8DWB9Ofgm7il9SB/M/ynxKMV7iEK5o0NK9bhW", "ADMIN"));
-			*/
+			
 		};
 	}
 }
